@@ -5,10 +5,15 @@ body {
     margin: 0px;
 }
 
+:root {
+    --black: #101010;
+    --yellow: #FFDA18;
+}
+
 
 
 header {
-    background-color: #101010;
+    background-color: var(--black);
     text-align: center;
     padding: 20px;
     margin: 0px;
@@ -17,7 +22,7 @@ header > a > img {
     width: 300px;
 }
 nav {
-    background-color: #101010;
+    background-color: var(--black);
     text-align: center;
     padding: 12px;
 }
@@ -27,7 +32,15 @@ nav > a {
     font-weight: bold;
     color: white;
     margin: 0px 15px 0px 15px;
+    transition-duration: 0.2s;
 }
 nav > a:hover {
-    color: #FFDA18;
+    color: var(--yellow);
+}
+
+main img {
+    max-height: 200px;
+}
+picture {
+    display: inline-block;
 }
