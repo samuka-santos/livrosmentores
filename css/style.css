@@ -30,6 +30,7 @@ nav > a {
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    line-height: 2em;
     color: white;
     margin: 0px 15px 0px 15px;
     transition-duration: 0.2s;
@@ -38,9 +39,26 @@ nav > a:hover {
     color: var(--yellow);
 }
 
-main img {
-    max-height: 200px;
+
+
+main {
+    margin: auto;
+    max-width: 1000px;
 }
-picture {
-    display: inline-block;
+section {
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    color: var(--black);
+    text-align: left;
+    text-indent: 1em;
+    text-decoration: underline;
+}
+img {
+    margin: 20px;
+    max-height: 220px;
+}
+hr {
+    margin: 20px;
 }
